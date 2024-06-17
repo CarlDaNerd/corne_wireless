@@ -14,10 +14,10 @@
 
                 default_layer {
 // -----------------------------------------------------------------------------------------
-//  |  n/a |  Q  |  W  |  F  |  P  |  B  |   |  J  |  L  |  U  |  Y  |  ;  | n/a |
+//  | n/a  |  Q  |  W  |  F  |  P  |  B  |   |  J  |  L  |  U  |  Y  |  ;  | n/a |
 //  | n/a  |  A  |  R  |  S  |  T  |  G  |   |  M  |  N  |  E  |  I  |  O  | n/a |
 //  | n/a  |  Z  |  X  |  C  |  D  |  V  |   |  K  |  H  |  ,  |  .  |  /  | n/a |
-//                     | GUI | MO 1| BSP |   | SPC |RCTRL| TO 1 |
+//                     |MO 1 |LSHFT| BSPC|   | SPC |RCTRL| TO 1 |
                         bindings = <
    &kp TAB   &kp Q &kp W &kp F &kp P &kp B   &kp J &kp L  &kp U     &kp Y   &kp SEMI &kp BSPC
    &kp LCTRL &kp A &kp R &kp S &kp T &kp G   &kp M &kp N  &kp E     &kp I   &kp O    &kp SQT
@@ -33,13 +33,13 @@
 //                      | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
    &kp TAB   &kp EXC  &kp AT   &kp HASH  &kp DLLR &kp PRCNT     &kp ASTRK  &kp N7   &kp N8  &kp N9  &kp EQUAL  &trans
-   &kp TAB   &kp TAB  &kp AMPS &kp ASTRK &kp LPAR &kp RPAR      &bt FSLH   &bt N4   &kp N5  &kp N6  &kp MINUS  &trans
+   &kp TAB   &kp TAB  &kp AMPS &kp ASTRK &kp LPAR &kp RPAR      &kp FSLH   &bt N4   &kp N5  &kp N6  &kp MINUS  &trans
    &kp LSHFT &trans   &trans   &trans    &trans   &trans        &kp N0     &kp N1   &kp N2  &kp N3  &kp RET    &trans 
                                &trans &kp LSHIFT &kp BSPC       &to 0 &kp SPACE &trans
                         >;
                 };
 
-                raise_layer {
+/*                raise_layer {
 // -----------------------------------------------------------------------------------------
 // |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
 // | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
@@ -51,6 +51,6 @@
    &kp LSHFT &trans   &trans &trans   &trans   &trans      &kp UNDER &kp PLUS  &kp LBRC  &kp RBRC &kp PIPE &kp TILDE
                              &trans  &trans    &trans      &trans     &trans    &trans
                         >;
-                };
+                };*/
         };
 };
